@@ -2,6 +2,9 @@ name: Do things every 1 minute
 on:
   schedule:
     - cron: "*/1 * * * *"
+  github:
+    branches:
+      only: main
     
 jobs:
   CloneRepo:
