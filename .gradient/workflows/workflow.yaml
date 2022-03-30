@@ -1,6 +1,4 @@
 on:
-  schedule:
-    - cron: "*/1 * * * *"
   github:
     branches:
       only: main
