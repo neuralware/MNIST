@@ -1,7 +1,7 @@
-'on':
-  github:
-    branches:
-      only: main
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+    
 jobs:
   CloneRepo:
     resources:
