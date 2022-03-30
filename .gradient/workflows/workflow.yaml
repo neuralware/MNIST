@@ -1,5 +1,4 @@
-name: Do things every 1 minute
-'on':
+on:
   schedule:
     - cron: '*/1 * * * *'
   github:
